@@ -76,7 +76,7 @@ def save_to_file(system_type):
 
 if __name__ == "__main__":
     print("\n" + "="*50)
-    print("🌈 TRADUTTORE ANDROID/iOS AVANZATO".center(50))
+    print("TRADUTTORE ANDROID/iOS AVANZATO".center(50))
     print("="*50)
 
     # Scelta del sistema con controllo input
