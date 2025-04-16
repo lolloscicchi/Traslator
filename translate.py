@@ -22,7 +22,7 @@ if __name__ == "__main__":
     print("Inserisci testo in formato 'chiave - testo_italiano' (scrivi 'exit' per uscire):")
     while True:
         user_input = input(">>> ")
-        if user_input.lower() == "exit":
+        if user_input.lower() == "esc" or user_input.lower() == "exit" or user_input.lower() == "fine":
             print("Programma terminato.")
             break
         print(format_string(user_input))
